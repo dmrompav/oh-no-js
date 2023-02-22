@@ -3,10 +3,8 @@
   "version": "0.0.0",
   "type": "module",
   "main": "dist/index.js",
-
   "author": "Dmitrii Pavlov <dm.rom.pav@gmail.com>",
   "license": "MIT",
-  
   "files": [
     "src",
     "dist"
@@ -20,16 +18,13 @@
     "type": "git",
     "url": "https://github.com/dmrompav/oh-no-js"
   },
-
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
     "lint": "eslint \"src\" --ext .js,.ts",
     "lint:fix": "yarn run lint --fix",
     "test": "jest",
     "clean": "rm -rf dist",
-    "pack": "yarn run clean && tsc && cp -r src/core dist/ts"
+    "add-ts": "rsync -av --exclude '*.test.ts' src/ dist/ts",
+    "pack": "yarn run clean && tsc && yarn run add-ts"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
@@ -38,8 +33,7 @@
     "@typescript-eslint/parser": "^5.53.0",
     "eslint": "^8.34.0",
     "ts-jest": "^29.0.5",
-    "typescript": "^4.9.3",
-    "vite": "^4.1.0"
+    "typescript": "^4.9.3"
   },
   "dependencies": {
     "jest": "^29.4.3"

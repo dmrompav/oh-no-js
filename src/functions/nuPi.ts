@@ -7,7 +7,7 @@ export function nuPi(obj, chain) {
   // Loop through each property in the chain
   for (const prop of props) {
     // Create a new empty object if the property doesn't exist in the object
-    if (!_obj.hasOwnProperty(prop) || typeof obj[prop] !== 'object' || obj[prop] === null) {
+    if (!Object.prototype.hasOwnProperty.call(_obj, prop) || typeof obj[prop] !== 'object' || obj[prop] === null) {
       _obj[prop] = {};
     }
 

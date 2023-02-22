@@ -3,15 +3,12 @@
     "target": "es6",
     "rootDir": "src",
     "outDir": "dist",
+    "moduleResolution": "node",
     "paths": {
-      "@/*": ["./src/*"],
-      "@lib/*": ["./src/lib/*"],
-      "@lib/functions/*": ["./src/lib/functions/*"],
-      "@lib/types/*": ["./src/lib/types/*"],
-      "@test/*": ["./src/test/*"]
+      "@/*": ["./src/*"]
     },
-    "allowJs": true
+    "allowJs": true,
   },
-  "include": ["./src", "./src/test"],
-  "exclude": ["./dist"],
+  "include": ["./src/",],
+  "exclude": ["./dist", "./src/**/*.test.ts"],
 }

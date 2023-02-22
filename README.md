@@ -1,7 +1,7 @@
 <img src="./oh-no-js.svg" />
 
 # About
-JS functions' library that makes JS syntax easier.
+A functions' library that makes JS syntax easier.
 
 # Install
 ```shell
