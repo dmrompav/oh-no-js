@@ -1,4 +1,5 @@
 export default {
+  base: '/oh-no-js/',
   title: 'OH NO! JS!',
   description: 'JS functions\' library',
   lastUpdated: true,
