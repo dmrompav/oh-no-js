@@ -1,6 +1,6 @@
 {
   "name": "oh-no-js",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "type": "module",
   "main": "dist/index.js",
 
@@ -15,11 +15,11 @@
     "oh-no-js",
     "oh no js"
   ],
-  "homepage": "https://github.com/dmrompav/oh-no-js",
   "repository": {
     "type": "git",
     "url": "https://github.com/dmrompav/oh-no-js"
   },
+  "homepage": "https://dmrompav.github.io/oh-no-js/",
 
   "scripts": {
     "docs:dev": "vitepress dev docs",

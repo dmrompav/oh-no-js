@@ -8,7 +8,7 @@ export default {
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css' }]
   ],
   themeConfig: {
-    logo: '/assets/oh-no-js.svg',
+    logo: '/oh-no-js.svg',
     siteTitle: false,
     nav: [
       { text: 'Main', link: '/' },
