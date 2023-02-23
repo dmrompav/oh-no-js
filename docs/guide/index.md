@@ -17,7 +17,7 @@ yarn add oh-no-js
 
 Import functions you need:
 ```javascript
-import { objEqual, nuPi } from 'on-no-js';
+import { objEqual, nuPi } from 'oh-no-js';
 ```
 
 Use them. Example:

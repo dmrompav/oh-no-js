@@ -20,10 +20,10 @@ npm run test
 ## Getting started
 Import functions you need:
 ```javascript
-import { objEqual, nuPi } from 'on-no-js';
+import { objEqual, nuPi } from 'oh-no-js';
 ```
 
-Use them. For more information open [TODOdocumentationLINK](documentationLink)
+Use them. For more information open [documentation](https://dmrompav.github.io/oh-no-js/).
 ```javascript
 const obj1 = { name: { first: 'Jesse', second: 'Pinkman' } };
 const obj2 = { name: { first: 'Jesse', second: 'Pinkman' } };
