@@ -1,4 +1,9 @@
-<img src="./oh-no-js.svg" />
+# Getting started
+
+:::warning
+  This module's development still in process.  
+  You may create a PR in the repo, if you are interested in [**"Oh no! JS!"**](https://github.com/dmrompav/oh-no-js)
+:::
 
 ## About
 A functions' library that makes JS syntax easier.
@@ -10,23 +15,15 @@ npm install oh-no-js
 yarn add oh-no-js
 ```
 
-## Dev/Test
-```shell
-yarn run test
-#or
-npm run test
-```
-
-## Getting started
 Import functions you need:
 ```javascript
 import { objEqual, nuPi } from 'on-no-js';
 ```
 
-Use them. For more information open [TODOdocumentationLINK](documentationLink)
+Use them. Example:
 ```javascript
-const obj1 = { name: { first: 'Jesse', second: 'Pinkman' } };
-const obj2 = { name: { first: 'Jesse', second: 'Pinkman' } };
+const obj1 = { name: { first: 'Walter', second: 'White' } };
+const obj2 = { name: { first: 'Walter', second: 'White' } };
 
 const areEqual = objEqual(obj1, obj2); // expected true
 ```
@@ -39,3 +36,5 @@ nuPi(obj, 'prop1.prop2').prop3 = 'Hello!';
 // Expected:
 // obj = { prop1: { prop2: { prop3: 'Hello!' } } };
 ```
+
+For more information open [documentation](/documentation/).
